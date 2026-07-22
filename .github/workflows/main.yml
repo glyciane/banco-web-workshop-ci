@@ -25,6 +25,6 @@ jobs:
       - name: Iniciando servidor de mock
         run: npm run mock-server &
       - name: Iniciando servidor da aplicacao
-        run: npm run server
+        run: npm run server &
       - name: Executando os testes e2e do projeto
         run: npx cypress run
